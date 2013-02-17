@@ -44,5 +44,10 @@
     [display setText:[NSString stringWithFormat:@"%g", result]];
 }
 
+- (IBAction)clear:(UIButton *)sender
+{
+    [[self brain] setOperand:0.0];
+    [display setText:[NSString stringWithFormat:@"%g", 0.0]];
+}
 
 @end

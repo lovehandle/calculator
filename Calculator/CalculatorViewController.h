@@ -17,5 +17,6 @@
 
 - (IBAction)digitPressed:(UIButton *)sender;
 - (IBAction)operationPressed:(UIButton *)sender;
+- (IBAction)clear:(UIButton *)sender;
 
 @end
