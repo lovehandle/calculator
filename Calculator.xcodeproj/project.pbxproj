@@ -23,6 +23,7 @@
 		780D465516D0CF7300CC8152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780D463016D0CF7300CC8152 /* Foundation.framework */; };
 		780D465D16D0CF7300CC8152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 780D465B16D0CF7300CC8152 /* InfoPlist.strings */; };
 		780D466016D0CF7300CC8152 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D465F16D0CF7300CC8152 /* CalculatorTests.m */; };
+		780D466B16D0D15600CC8152 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D466A16D0D15600CC8152 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		780D465C16D0CF7300CC8152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		780D465E16D0CF7300CC8152 /* CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
 		780D465F16D0CF7300CC8152 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		780D466916D0D15600CC8152 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		780D466A16D0D15600CC8152 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				780D464616D0CF7300CC8152 /* MainStoryboard.storyboard */,
 				780D464916D0CF7300CC8152 /* CalculatorViewController.h */,
 				780D464A16D0CF7300CC8152 /* CalculatorViewController.m */,
+				780D466916D0D15600CC8152 /* CalculatorBrain.h */,
+				780D466A16D0D15600CC8152 /* CalculatorBrain.m */,
 				780D463516D0CF7300CC8152 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -274,6 +279,7 @@
 				780D463B16D0CF7300CC8152 /* main.m in Sources */,
 				780D463F16D0CF7300CC8152 /* CalculatorAppDelegate.m in Sources */,
 				780D464B16D0CF7300CC8152 /* CalculatorViewController.m in Sources */,
+				780D466B16D0D15600CC8152 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
